@@ -21,6 +21,7 @@ namespace Catalog.Mappers
                 Price = product.Price,
                 Brand = product.Brand,
                 Type = product.Type,
+                CreatedDate = product.CreatedDate,
             };
         }
 
