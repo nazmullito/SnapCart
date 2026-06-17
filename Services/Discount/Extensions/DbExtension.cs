@@ -55,16 +55,16 @@ namespace Discount.Extensions
                     // Exit loop if successful
                     break;
                 }
-                catch(Exception ex)
+                catch (Exception ex)
                 {
                     retry--;
-                    if(retry == 0)
+                    if (retry == 0)
                     {
                         throw;
                     }
                 }
             }
-            
+
         }
     }
 }
